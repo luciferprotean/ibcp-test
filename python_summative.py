@@ -16,10 +16,10 @@ top_10_countries = athlete_counts.head(20)
 print(top_10_countries)
 max_country = athlete_counts.idxmax()
 print(max_country)
-# st.write("""
-# #IBCP Capstone
-# #Test deployment
-# Checking *italics* and line writes
-# """)
-# st.line_chart(df_gold)
+st.write("""
+#IBCP Capstone
+#Test deployment
+Checking *italics* and line writes
+""")
+st.line_chart(athlete_counts_df)
 
