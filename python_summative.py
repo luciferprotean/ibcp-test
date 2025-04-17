@@ -18,5 +18,5 @@ st.write("""
 #Test deployment
 Checking *italics* and line writes
 """)
-st.line_chart(df)
+st.line_chart(df_gold)
 
