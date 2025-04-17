@@ -21,5 +21,5 @@ st.write("""
 #Test deployment
 Checking *italics* and line writes
 """)
-st.line_chart(athlete_counts_df)
+st.line_chart(athlete_counts_df, x="Team", y="Count")
 
